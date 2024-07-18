@@ -2,6 +2,8 @@ import EcosystemIcon from '../assets/icons/ecosystem.svg'
 import { GrAd } from "react-icons/gr";
 import { GrAggregate } from "react-icons/gr";
 import { GrValidate } from "react-icons/gr";
+import { GrSecure } from "react-icons/gr";
+
 
 
 
@@ -19,7 +21,7 @@ const features = [
       "Define and track your goals, breaking down objectives into achievable tasks to keep your targets in sight.",
   },
   {
-    icon: GrAd,
+    icon: GrSecure,
     title: "Secure Data Encryption",
     description:
       "With end-to-end encryption, your data is securely stored and protected from unauthorized access.",
