@@ -48,7 +48,7 @@ const FeatureAnimate: React.FC<FeatureAnimateProps> = ({ title, description, ico
     <div className='  px-5 py-10 text-center rounded-xl sm:flex-1 relative'>
       <motion.div
         ref={border}
-        className='absolute inset-0 border-2 border-purple-400 rounded-xl'
+        className='absolute inset-0 border-2 border-purple-400 rounded-xl sm:border-opacity-100 border-opacity-10'
         style={{
           maskImage: maskImage
         }}
